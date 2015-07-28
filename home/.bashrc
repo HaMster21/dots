@@ -98,4 +98,6 @@ fi
 #    . /etc/bash_completion
 #fi
 
+# make homeshick available as command and source its completion
 source "$HOME/.homesick/repos/homeshick/homeshick.sh"
+source "$HOME/.homesick/repos/homeshick/completions/homeshick-completion.bash"
