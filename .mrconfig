@@ -9,5 +9,4 @@ checkout = git clone 'git://github.com/HaMster21/dotmux.git' 'dotmux'
 checkout = 
            git clone 'git://github.com/andsens/homeshick.git' 'homeshick'
            cd homeshick
-           source home/.bashrc
-           homeshick link
+           ./homeshick.sh link
